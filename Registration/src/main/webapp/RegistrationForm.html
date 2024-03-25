@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title>Registration Form...</title>
+	</head>
+	<body bgcolor="grey">
+        <h1>Registration Form</h1>
+        <form method="get" action="./RegistrationServlet">
+           <label>User Name:</label>
+            <input type="text" name="username" required/>
+            <br><br>
+
+            <label>User Password:</label>
+            <input type="password" name="Password" required/>
+            <br><br>
+
+            <label>Mobile:</label>
+            <input type="number" name="Mobile" required/>
+            <br><br>
+
+            <label>User Email:</label>
+            <input type="email" name="Email" required/>
+            <br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="Gender" value="Male"/>/Male
+            <input type="radio" name="Gender" value="Female"/>/Female
+            <br><br>
+
+            <label>Select DOB:</label>
+            <input type="date" name="DOB" required/>
+            <br><br>
+
+            <label>Qualification:</label>  
+            <input type="checkbox" name="Qualification" value="BSC"/>/BSC
+            <input type="checkbox" name="Qualification" value="MCA"/>/MCA
+            <input type="checkbox" name="Qualification" value="BTech"/>/BTech
+            <input type="checkbox" name="Qualification" value="MTech"/>/MTech 
+            <br><br>
+            
+            <label>Languages:</label>
+            <select name="Languages" size="3">
+                <option>Telugu</option>
+                <option>Hindi</option>
+                <option>Tamil</option>
+                <option>Malayalam</option>
+                <option>English</option>
+            </select>
+            <br><br>
+
+            <label>Country::</label>
+            <select name="Country">
+                <option>India</option>
+                <option>Russia</option>
+                <option>Canada</option>
+                <option>China</option>
+                <option>America</option>
+            </select>
+            <br><br>
+            
+            <label>Address:</label>
+            <textarea name="Address" rows="3"
+            cols="25">
+            </textarea>
+            <br><br>
+
+            <input type="submit" value="Register"/>
+            <br><br>
+        </form>
+	</body>
+</html>

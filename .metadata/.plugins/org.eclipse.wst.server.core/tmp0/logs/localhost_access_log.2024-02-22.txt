@@ -1,0 +1,9 @@
+127.0.0.1 - - [22/Feb/2024:21:27:32 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Feb/2024:21:27:33 +0530] "GET /HttpSessionEx/ HTTP/1.1" 404 769
+0:0:0:0:0:0:0:1 - - [22/Feb/2024:21:27:33 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [22/Feb/2024:21:27:44 +0530] "GET /HttpSessionEx/Form1.html HTTP/1.1" 200 369
+0:0:0:0:0:0:0:1 - - [22/Feb/2024:21:27:57 +0530] "POST /HttpSessionEx/FirstServlet HTTP/1.1" 200 369
+0:0:0:0:0:0:0:1 - - [22/Feb/2024:21:28:10 +0530] "POST /HttpSessionEx/FirstServlet HTTP/1.1" 200 369
+0:0:0:0:0:0:0:1 - - [22/Feb/2024:21:28:39 +0530] "POST /HttpSessionEx/FirstServlet HTTP/1.1" 200 393
+0:0:0:0:0:0:0:1 - - [22/Feb/2024:21:28:58 +0530] "POST /HttpSessionEx/SecondServlet HTTP/1.1" 200 381
+0:0:0:0:0:0:0:1 - - [22/Feb/2024:21:29:17 +0530] "POST /HttpSessionEx/ThirdServlet HTTP/1.1" 200 238

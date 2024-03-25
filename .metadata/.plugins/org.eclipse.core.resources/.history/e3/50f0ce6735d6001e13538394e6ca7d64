@@ -1,0 +1,7 @@
+function pushmethod()
+{
+	let name=['pavan','kalyan','jalapati']
+	name.push('ravi','subbu')
+	console.log(name)
+}
+pushmethod();

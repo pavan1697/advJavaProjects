@@ -1,0 +1,11 @@
+function convertToINR()
+{
+	//read the fahrenheit input and store in a variable
+	const dollar=document.getElementById("dollarinput").value;
+	
+	//convert the fahrenheit to celcius
+	const INR=parseFloat(dollar*82.89)
+	
+	//set the output to celcius output field
+	document.getElementById("inroutput").value=INR.toFixed(2);
+}

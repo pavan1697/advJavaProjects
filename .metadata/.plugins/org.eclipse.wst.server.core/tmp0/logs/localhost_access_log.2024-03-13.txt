@@ -1,0 +1,8 @@
+127.0.0.1 - - [13/Mar/2024:15:11:32 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Mar/2024:15:11:33 +0530] "GET /ProductProject/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Mar/2024:15:11:33 +0530] "GET /ProductProject/formvalidation.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Mar/2024:15:11:37 +0530] "GET /ProductProject/productList.jsp HTTP/1.1" 200 20409841
+0:0:0:0:0:0:0:1 - - [13/Mar/2024:15:11:41 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [13/Mar/2024:15:25:09 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Mar/2024:15:25:41 +0530] "GET /ProductProject/ HTTP/1.1" 200 3002
+0:0:0:0:0:0:0:1 - - [13/Mar/2024:15:25:41 +0530] "GET /ProductProject/bg.jpg.jpg HTTP/1.1" 200 36663

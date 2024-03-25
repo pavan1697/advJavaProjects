@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Fahrenheit to Celcius converter</title>
+<script type="text/javascript" src="FahrenhietToCelcius.js">
+	
+</script>
+</head>
+<body>
+	<form>
+		<label>Enter Fahrenheit Temperature:</label>
+		<input type="text" id="fahrenheitinput" required/>
+		<br>
+		
+		<label>Celcius Temperature:</label>
+		<input type="text" id="celciusoutput" readonly/>
+		<br>
+		<button type="button" onclick="convertToCelcius()">Convert</button>
+	</form>
+</body>
+</html>

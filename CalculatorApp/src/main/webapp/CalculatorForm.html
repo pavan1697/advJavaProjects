@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CalculatorApplication</title>
+</head>
+<center>
+<body bgcolor="grey">
+	<h1>PK Calculator Application</h1>
+	<form method="get" action="./CalculatorServlet">
+		<label>First Number:</label>
+		<input type="number" name="FirstNum"
+		placeholder="Enter a number" required/>
+		<br><br>
+		<label>Second Number:</label>
+		<input type="number" name="SecondNum"
+		placeholder="Enter a number" required/>
+		<br><br>
+		
+		<input type="submit" value="+" name="operation"/>
+		<input type="submit" value="-" name="operation"/>
+		<input type="submit" value="*" name="operation"/>
+		<input type="submit" value="/" name="operation"/>
+		<input type="submit" value="%" name="operation"/>
+	</form>
+</body>
+</center>
+</html>

@@ -1,0 +1,15 @@
+/*function pushmethod()
+{
+	let name=['pavan','kalyan','jalapati']
+	name.push('ravi','subbu')
+	console.log(name)
+}
+pushmethod(); */
+
+function popmethod()
+{
+	let name=['pavan','kalyan','jalapati'] 
+	name.pop()
+	console.log(name)
+}
+popmethod()
